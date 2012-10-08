@@ -32,6 +32,7 @@ let g:colors_name="suklaa"
 
 " ## Main content ## {{{
 hi!      Normal            guifg=#FFFFFF guibg=#000000 guisp=NONE gui=NONE ctermfg=252   ctermbg=NONE cterm=NONE
+hi!      String            guifg=#FFFFFF guibg=#000000 guisp=NONE gui=NONE ctermfg=81   ctermbg=NONE cterm=NONE
 hi! link Constant          Normal
 hi! link Identifier        Normal
 hi! link Statement         Normal
