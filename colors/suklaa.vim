@@ -67,29 +67,4 @@ hi       Pmenu             guifg=NONE    guibg=#334488 guisp=NONE gui=NONE cterm
 hi       PmenuSel          guifg=NONE    guibg=#AAAAAA guisp=NONE gui=NONE ctermfg=White ctermbg=235  cterm=NONE
 " }}}
 
-" # Clojure mode # {{{
-" TODO: Throw away these
-
-" ## Primary content ## {{{
-hi! link clojureSexpLevel0 Normal
-hi! link clojureMacro      Normal
-hi! link clojureSpecial    Normal
-hi! link clojureDefine     Normal
-hi! link clojureFunc       Normal
-hi! link clojureDispatch   Normal
-hi! link clojureKeyword    Normal
-hi! link clojureCond       Normal
-hi! link clojureVariable   Normal
-" }}}
-
-" ## Punctuation and literals ## {{{
-hi       Delimiter         guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi! link clojureString     Delimiter
-hi! link clojureNumber     Delimiter
-hi! link clojureBoolean    Delimiter
-hi! link clojureParen      Delimiter
-" }}}
-
-" }}}
-
 " vim:foldmethod=marker:foldlevel=0
